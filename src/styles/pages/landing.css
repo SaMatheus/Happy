@@ -10,7 +10,7 @@
 
 #page-landing .content-wrapper {
   height: 100%;
-  max-height: 600px;
+  max-height: 620px;
 
   width: 100%;
   max-width: 1100px;
@@ -82,4 +82,11 @@
 
 .content-wrapper .enter-app:hover {
   background: #96feff;
+}
+
+@media screen and (max-width: 1370px) {
+  #page-landing .content-wrapper {
+    height: 100%;
+    max-height: 550px;
+  }
 }
